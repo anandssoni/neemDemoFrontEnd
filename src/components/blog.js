@@ -67,11 +67,11 @@ const useStyles = makeStyles((theme) => ({
               <Typography gutterBottom variant="h5" component="h2">
                 {cat_data.title}
               </Typography>
-              <Typography>
+              {/* <Typography>
                 {
                     cat_data.description
                 }
-              </Typography>
+              </Typography> */}
             </CardContent>
             <CardActions>
               <Button size="small" color="primary">
